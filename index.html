@@ -23,40 +23,17 @@
         <p>This is my new website hosted on GitHub Pages!</p>
 
     </main>
-<script src="https://code.responsivevoice.org/responsivevoice.js?key=JAh20U1A"></script>  <!-- replace with KEY-->
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script> 
-function getSelectionText() {
-    var text = "";
-    if (window.getSelection) {
-        text = window.getSelection().toString();
-    // for Internet Explorer 8 and below. For Blogger, you should use &amp;&amp; instead of &&.
-    } else if (document.selection && document.selection.type != "Control") { 
-        text = document.selection.createRange().text;
-    }
-    return text;
-}
-$(document).ready(function (){ // when the document has completed loading
-   $(document).mouseup(function (e){ // attach the mouseup event for all div and pre tags
-      setTimeout(function() { // When clicking on a highlighted area, the value stays highlighted until after the mouseup event, and would therefore stil be captured by getSelection. This micro-timeout solves the issue. 
-         responsiveVoice.cancel(); // stop anything currently being spoken
-         responsiveVoice.speak(getSelectionText()); //speak the text as returned by getSelectionText
-      }, 1);
-   });
-});
-</script>
-	  
-	  <script type='text/javascript'>
+<script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
 			embeddedservice_bootstrap.init(
-				'00Dd2000004Rxw9',
-				'AI_AGENT',
-				'https://dd2000004rxw9eac-dev-ed.develop.my.site.com/ESWAIAGENT1731616273858',
+				'00DNS000006yz3Z',
+				'Euryal_Site',
+				'https://dns000006yz3z2aq-dev-ed.develop.my.site.com/ESWEuryalSite1732695775978',
 				{
-					scrt2URL: 'https://dd2000004rxw9eac-dev-ed.develop.my.salesforce-scrt.com'
+					scrt2URL: 'https://dns000006yz3z2aq-dev-ed.develop.my.salesforce-scrt.com'
 				}
 			);
 		} catch (err) {
@@ -64,7 +41,7 @@ $(document).ready(function (){ // when the document has completed loading
 		}
 	};
 </script>
-<script type='text/javascript' src='https://dd2000004rxw9eac-dev-ed.develop.my.site.com/ESWAIAGENT1731616273858/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://dns000006yz3z2aq-dev-ed.develop.my.site.com/ESWEuryalSite1732695775978/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 
   </body>
 
